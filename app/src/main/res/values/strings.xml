@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DymLanguage</string>
+
+
+    <string name="account">Account</string>
+    <string name="account_hint">Please input your account.</string>
+    <string name="login">Login</string>
+
+    <string name="test_fragment">Test Fragment</string>
+    <string name="jump_setting">Jump To Setting</string>
+
+    <string name="set_language">Setting Language</string>
+
+    <string-array name="language_list">
+        <item>Set Chinese</item>
+        <item>Set English</item>
+    </string-array>
+
+</resources>

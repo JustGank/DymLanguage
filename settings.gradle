@@ -1,0 +1,3 @@
+rootProject.name='DymLanguage'
+include ':app'
+include ':dymlanguage'
