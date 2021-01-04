@@ -7,11 +7,9 @@ import com.xjl.dymdemo.demo.dym.TextMap;
 import com.xjl.dymlanguage.DymLanguageManager;
 
 public class App extends Application {
-
     @Override
     public void onCreate() {
         super.onCreate();
-
         DymLanguageManager.INSTANCE
                 .setDymCustomerView(new MyDymCustomerView())
                 .setLanguageMap(TextMap.class);

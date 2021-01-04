@@ -50,7 +50,10 @@ public enum DymLanguageManager {
         return this;
     }
 
-    //注入绑定的对象
+    /**
+     * 注入绑定的对象的容器，如Activity ，Fragment 等。
+     * 此方法，仅绑定，并不将框架当前的语言字典设置到UI控件中。
+     */
     public void bind(Object o) {
         if (dymHashMap.get(o.getClass().getSimpleName()) == null) {
             Field[] fields = o.getClass().getDeclaredFields();
